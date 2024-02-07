@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.delIcon{
+.delBtn i{
     height: 20px;
     position: absolute;
     bottom: 10px;
@@ -18,8 +18,21 @@
     resize: none;
 }
 
-.todoCard{
+#todoCards {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-    display: inline-block;
+.todoCard{
+    display: block;
     margin-right: 5px;
+    margin-left: 0;
+}
+
+.containerCompteur {
+    display: inline-block;
+}
+
+.compteurCards {
+    display: inline-block;
 }
